@@ -7,10 +7,10 @@ class Ball
 {
 public:
 	Color color;
-	cv::Point point;
+	cv::Point position;
 	cv::Rect rect;
 
 	Ball();
-	Ball(Color color, cv::Rect rect, int x, int y);
+	Ball(Color _color, cv::Rect _rect, int _x, int _y);
 };
 

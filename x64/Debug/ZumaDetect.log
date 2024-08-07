@@ -1,3 +1,19 @@
 ﻿  ZumaDetect.cpp
-C:\Users\black\source\repos\ZumaDetect\ZumaDetect\ZumaDetect.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  ZumaDetect.vcxproj -> C:\Users\black\source\repos\ZumaDetect\x64\Debug\ZumaDetect.exe
+C:\Users\Gleb\Desktop\Zuma Detect\ZumaDetect\ZumaDetect.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Gleb\Desktop\Zuma Detect\ZumaDetect\ZumaDetect.cpp(44,14): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Gleb\Desktop\Zuma Detect\ZumaDetect\ZumaDetect.cpp(45,14): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Gleb\Desktop\Zuma Detect\ZumaDetect\ZumaDetect.cpp(46,12): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Gleb\Desktop\Zuma Detect\ZumaDetect\ZumaDetect.cpp(59,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  ZumaDetect.vcxproj -> C:\Users\Gleb\Desktop\Zuma Detect\x64\Debug\ZumaDetect.exe

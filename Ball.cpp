@@ -2,13 +2,15 @@
 
 Ball::Ball()
 {
-
+	this->color = Color::BLUE;
+	this->position = cv::Point();
+	this->rect = cv::Rect();
 }
 
-Ball::Ball(Color color, cv::Rect rect, int x, int y)
+Ball::Ball(Color _color, cv::Rect _rect, int _x, int _y)
 {
-	this->color = color;
-	this->rect = rect;
-	this->point = cv::Point(x,y);
-
+	this->color = _color;
+	this->rect = _rect;
+	position.x = _x;
+	position.y = _y;
 }
